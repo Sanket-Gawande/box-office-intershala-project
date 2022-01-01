@@ -7,10 +7,10 @@ const Navbar = () => {
         <>  <h4>Are you looking for a movie or actor</h4>
             <ul>
                 <li>
-                    <Link exact to='/'>Home</Link>
+                    <Link to='/'>Home</Link>
                 </li>
                 <li>
-                    <Link exact to='/starred'>Starred</Link>
+                    <Link  to='/starred'>Starred</Link>
                 </li>
             </ul>
         </>

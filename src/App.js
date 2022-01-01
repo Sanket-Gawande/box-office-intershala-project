@@ -7,11 +7,11 @@ const App = () => {
     return (
        <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Home/>} />
-                <Route path='/starred' element={<Starred/>}/>
+                <Route exact path='/' element={<Home/>} />
+                <Route exact path='/starred' element={<Starred/>}/>
             </Routes>
        </BrowserRouter>
     )
 }
 
-export default App
+export default App 
